@@ -1,0 +1,48 @@
+<VAST version="4.1">
+<Ad id="35977274" adType="video">
+<InLine id="test">
+<AdSystem version="4.0">adnxs</AdSystem>
+<AdTitle>Vast AdVerification</AdTitle>
+<Creatives>
+<Creative id="81298731" adId="81298731" sequence="1">
+<UniversalAdId idRegistry="unknown">
+<![CDATA[ TODO_UniversalAdId ]]>
+</UniversalAdId>
+<!--  TODO skippable option <Linear skipoffset="00:00:05">  -->
+<Linear>
+<Duration>00:00:40</Duration>
+<MediaFiles>
+<MediaFile delivery="progressive" width="640" height="360" type="video/webm" bitrate="866" scalable="true" maintainAspectRatio="true">
+<![CDATA[ http://testpages-fmenou.tp.adnxs.net/content/flowplayer/html5/video/624x260.webm ]]>
+</MediaFile>
+<MediaFile delivery="progressive" width="1280" height="720" type="video/mp4" bitrate="3054" scalable="true" maintainAspectRatio="true">
+<![CDATA[ http://testpages-fmenou.tp.adnxs.net/content/flowplayer/html5/video/624x260.mp4 ]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+
+
+
+      <AdVerifications>
+<Verification vendor="appnexus.com-omid">
+<JavaScriptResource apiFramework="omid" browserOptional="true">
+<![CDATA[ https://s3-us-west-2.amazonaws.com/omsdk-files/compliance-js/omid-validation-verification-script-v1.js ]]>
+</JavaScriptResource>
+<VerificationParameters>
+<![CDATA["iabtechlab-Appnexus"]]>
+ 
+ </VerificationParameters>
+
+<TrackingEvents>
+<Tracking event="verificationNotExecuted">
+<![CDATA[ http://video-viewability.tp.adnxs.net/log.php?sessionId=5bceecd5b1ecc2.50810162&vastId=0&event=verificationNotExecuted&reason=[REASON]&player=[PLAYER]&domain=[DOMAIN] ]]>
+</Tracking>
+</TrackingEvents>
+</Verification>
+</AdVerifications>
+
+</InLine>
+</Ad>
+</VAST>
